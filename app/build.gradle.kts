@@ -45,5 +45,7 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+    implementation ("androidx.core:core-ktx:1.12.0")
+    implementation ("org.jetbrains.kotlin:kotlin-stdlib:1.9.22")
     implementation ("com.mikhaellopez:circularprogressbar:3.1.0")
 }
