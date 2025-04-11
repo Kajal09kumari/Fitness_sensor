@@ -29,5 +29,13 @@ class CardActivity : AppCompatActivity() {
             val i2= Intent(this,PedoSensor::class.java)
             startActivity(i2)
         }
+        // In CardActivity's onCreate()
+        findViewById<ImageView>(R.id.imgYoga).setOnClickListener {
+            startActivity(Intent(this, YogaActivity::class.java))
+        }
+
+        findViewById<ImageView>(R.id.imgTips).setOnClickListener {
+            startActivity(Intent(this, TipsActivity::class.java))
+        }
     }
 }
