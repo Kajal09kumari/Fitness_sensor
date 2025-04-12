@@ -29,6 +29,15 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:srcCompat="@drawable/bmi" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="156dp"
+            android:gravity="center"
+            android:text="BMI Calculator"
+            android:textStyle="bold"/>
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
@@ -36,7 +45,7 @@
         android:layout_height="200dp"
         android:layout_marginStart="32dp"
         android:layout_marginEnd="221dp"
-        android:layout_marginBottom="142dp"
+        android:layout_marginBottom="210dp"
         app:cardCornerRadius="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -50,13 +59,22 @@
             android:layout_width="150dp"
             android:layout_height="200dp"
             app:srcCompat="@drawable/tips" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="156dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="Fitness Tips" />
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
         android:layout_width="150dp"
         android:layout_height="200dp"
         android:layout_marginEnd="32dp"
-        android:layout_marginBottom="142dp"
+        android:layout_marginBottom="210dp"
         app:cardCornerRadius="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -68,6 +86,15 @@
             android:layout_width="150dp"
             android:layout_height="200dp"
             app:srcCompat="@drawable/yogalogo" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="156dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="Yoga Guide" />
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
@@ -92,6 +119,15 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:srcCompat="@drawable/pedometer" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="156dp"
+            android:gravity="center"
+            android:text="Pedometer"
+            android:textStyle="bold"/>
     </androidx.cardview.widget.CardView>
 
     <TextView
@@ -104,7 +140,7 @@
         android:text="@string/welcome_to_fitnesssensor"
         android:textColor="@color/black"
         android:textAlignment="center"
-        android:textStyle="bold"
+        android:textStyle="italic"
         android:textSize="22sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
