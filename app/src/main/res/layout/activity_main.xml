@@ -7,25 +7,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#05f3f7"
+    android:background="#300451"
     tools:context=".MainActivity">
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
-        android:layout_gravity="center"
-        android:layout_marginTop="200dp"
-        android:background="#05f3f7"
-        app:srcCompat="@drawable/logofit" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="200dp"
-        android:layout_height="22dp"
-        android:layout_gravity="center"
-        android:textStyle="bold"
-        android:textSize="20dp"
-        android:gravity="center"
-        android:text="FitnessSensor" />
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/logo" />
 </LinearLayout>
+
+
+
+
